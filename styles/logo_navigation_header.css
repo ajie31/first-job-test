@@ -1,0 +1,98 @@
+/* Nvigation menu and title logo*/
+
+nav {
+  /* padding: 0.5rem 9rem 1.25rem 9.5rem; */
+  box-shadow: -1px 4px 8px 0px #0c0c0d1a;
+  -webkit-box-shadow: -1px 4px 8px 0px #0c0c0d1a;
+  -moz-box-shadow: -1px 4px 8px 0px #0c0c0d1a;
+}
+.nav-menu {
+  list-style-type: none; /* Removes the default list styling */
+  margin: 0;
+  padding: 0.4rem 0;
+  overflow: hidden;
+  font-size: 0.72rem;
+  font-weight: 600;
+  /* Sets the background color */
+}
+
+.nav-menu li {
+  float: left; /* Makes the list items align horizontally */
+}
+
+.nav-menu li a {
+  display: block;
+  color: #000; /* Sets the text color */
+  text-align: center;
+  padding-right: 2.5rem; /* Adds padding around the links */
+  padding-left: 0rem;
+  text-decoration: none; /* Removes underline from links */
+}
+.nav-menu i {
+  padding-left: 0.4rem;
+}
+.nav-menu li a:hover {
+  text-decoration: underline; /* Changes background color on hover */
+}
+.nav-menu li:last-child a {
+  padding-right: 0rem;
+}
+.nav-menu .search-button {
+  float: right; /* Positions the search button to the right */
+}
+
+.nav-menu .search-button a img {
+  height: 20px; /* Sets the height of the magnify logo */
+  width: 20px; /* Sets the width of the magnify logo */
+}
+
+.nav-menu .search-button a {
+  padding: 0rem 0rem; /* Adds padding around the search button */
+}
+
+/* here is logo */
+.logo {
+  padding: 1rem 0rem 3.2rem 0rem;
+  margin: 0;
+
+  height: 120px;
+  width: 100%;
+
+  display: flex;
+
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: normal;
+  align-content: normal;
+}
+.logo > img {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  width: 28%;
+  order: 0;
+}
+
+.logo > .ads {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  background-color: #f2f2f2;
+  max-width: 60%;
+  height: 128px;
+  order: 0;
+  color: #b1b1b1;
+  font-size: 1.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  /* padding: 1rem; */
+}
+
+nav.navigation-l {
+  display: none;
+}

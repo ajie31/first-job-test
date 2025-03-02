@@ -1,0 +1,165 @@
+div.date-login {
+  position: fixed;
+  bottom: 0;
+  left: auto;
+}
+div.date-login p.date {
+  font-size: smaller;
+  color: #fff;
+}
+snan.sign-in {
+  color: #fff;
+}
+button.overlay-menu {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 5;
+  display: none;
+  background-color: #111111;
+  opacity: 0.34;
+  /* border: 2px solid #b1b1b1; */
+  border: none;
+
+  font-size: 1rem;
+  color: #b1b1b1;
+}
+
+.nav-menu-l {
+  position: fixed;
+  top: 0;
+  left: -250px; /* Initially hide the menu offscreen */
+  width: 250px;
+  height: 100%;
+  background-color: #333;
+  overflow-y: auto;
+  transition: left 0.3s ease;
+  z-index: 10;
+}
+
+.nav-menu-l ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-menu-l li {
+  padding: 0.32rem;
+  text-align: left;
+}
+
+.nav-menu-l li i {
+  padding: 8px;
+  /* text-align: rignht; */
+}
+
+.nav-menu-l a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  font-size: 1rem;
+}
+
+.nav-menu-l li.close-button button {
+  color: white;
+  text-decoration: none;
+  background-color: #333;
+  border: none;
+  text-align: left;
+  display: block;
+  width: 70%;
+  height: 60px;
+  font-size: 1.25rem;
+  padding: 0.125rem;
+}
+
+.nav-menu-l a:hover {
+  background-color: #575757;
+}
+nav.navigation-l {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: none;
+  background-color: #fff;
+  z-index: 2;
+}
+@media only screen and (max-width: 1490px) {
+  .breadcrumb-intro {
+    margin-top: 6.75rem;
+  }
+  div.top-menu {
+    display: none;
+  }
+  nav.navigation-xl {
+    display: none;
+  }
+  nav.navigation-l {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: block;
+    background-color: #fff;
+    z-index: 2;
+  }
+
+  .navigation-l > .wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navigation-l .logo-l > img {
+    width: 240px;
+    height: 87.8px;
+  }
+  .navigation-l .button-nav > button {
+    display: block;
+    background-color: #fff;
+
+    /* border: 2px solid #b1b1b1; */
+    border: none;
+    border-radius: 0.5rem;
+
+    font-size: 1rem;
+    color: #b1b1b1;
+  }
+}
+
+@media only screen and (max-width: 864px) {
+  .intro-text > p {
+    max-width: 97%;
+    margin: 1rem 0;
+  }
+  .intro-text {
+    margin-bottom: 2rem;
+  }
+}
+
+@media only screen and (max-width: 475px) {
+  .breadcrumb-intro {
+    margin-top: 4.75rem;
+  }
+  .navigation-l .wrapper {
+    padding: 0;
+  }
+  .navigation-l .logo-l > img {
+    width: 180px;
+    height: 67.8px;
+  }
+  .search-button img {
+    width: 24px;
+    height: 24px;
+  }
+  .button-nav button {
+    padding: 0.25rem 0.25rem;
+    font-size: 1em;
+  }
+  .button-nav i {
+    font-size: 1.75em;
+  }
+  .breadcrumb > p {
+    font-size: 0.75rem;
+  }
+}

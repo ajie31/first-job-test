@@ -1,0 +1,31 @@
+.breadcrumb {
+  margin: 0;
+  padding: 0.25rem 0;
+}
+.breadcrumb > p {
+  color: #c3c3c3;
+  font-size: 1rem;
+}
+.breadcrumb i {
+  font-size: small;
+  padding: 0rem 0.4rem;
+}
+
+/* here is intro section */
+
+.intro-text {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000;
+  margin: 0;
+  margin-bottom: 10rem;
+  padding: 0;
+}
+
+.intro-text > p {
+  font-weight: 400;
+  margin: 2.25rem 0;
+  line-height: 24px;
+  max-width: 80%;
+}

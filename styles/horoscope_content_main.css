@@ -1,0 +1,106 @@
+.horoscope-card-group {
+  background-color: #fafafa;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 0;
+}
+.horoscope-menu-group > a {
+  text-decoration: none;
+  color: #2c2c2c;
+}
+.horoscope-card {
+  background-color: #fff;
+
+  display: grid;
+  row-gap: 1rem;
+  padding: 1rem 3.5rem;
+  margin: 2rem 0;
+  border: 2px solid #e3e3e3;
+  border-radius: 1rem;
+}
+
+.horoscope-card .logo-title-intro {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 2.5px solid #e4e4e4;
+
+  padding: 1rem;
+  padding-bottom: 2rem;
+}
+
+.card-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.75rem;
+  width: 120px; /* Set the width of the circle */
+  height: 120px; /* Set the height of the circle */
+  border-radius: 50%; /* Make the div circular */
+  background-color: #fff9e7; /* Set the background color */
+  overflow: hidden; /* Hide any overflow content */
+  flex-shrink: 0;
+}
+.card-logo > img {
+  width: 120px;
+  height: 120px;
+}
+
+.horoscope-card .title-intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 3rem;
+}
+
+.horoscope-card .card-description {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  padding-top: 3rem;
+  padding-bottom: 2.5rem;
+  /* justify-content: space-between; */
+}
+
+.horoscope-card .card-description .description-left {
+  width: 54%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 5% 0 0;
+}
+.horoscope-card .card-description .description-right {
+  max-width: 40%;
+  border-left: 2.5px solid #e4e4e4;
+  padding: 0 0 0 3.5rem;
+}
+.description-right ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 80%;
+  padding: 0;
+  margin: 0;
+  margin-top: 1rem;
+}
+.card-description h3:first-child {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.description-right ul > li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* padding: 0 0 1.5rem 0; */
+}
+.description-right ul > li:last-child {
+  padding: 0 0 0 0;
+}
+.description-right i {
+  color: #ed1b33;
+  font-size: 1.5rem;
+  padding-right: 1rem;
+}

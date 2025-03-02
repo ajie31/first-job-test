@@ -1,0 +1,58 @@
+.horoscope-menu-group {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns */
+  grid-template-rows: repeat(3, 1fr); /* 3 rows */
+  gap: 2.5rem; /* Optional: space between grid items */
+}
+.horoscope-menu-group > a {
+  text-decoration: none;
+  border-radius: 1rem;
+  border: 1px solid #e3e3e3;
+}
+.horoscope-menu-group > a:hover {
+  box-shadow: 0px 8px 40px 0px #00000021;
+  -webkit-box-shadow: 0px 8px 40px 0px #00000021;
+  -moz-box-shadow: 0px 8px 40px 0px #00000021;
+}
+
+.box-menu {
+  width: 100%;
+  height: auto;
+  /* border: 1px solid #e3e3e3; */
+  border-radius: 1rem;
+}
+
+.horoscope-title > h3 {
+  font-size: 1.5rem;
+  padding-bottom: 2.5rem;
+}
+.horoscope-info h2 {
+  font-size: 1.5rem;
+}
+
+.horoscope-logo {
+  height: 153px;
+  width: 100%;
+  padding: 0.25rem 0;
+  background-color: #fff9e7;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.horoscope-logo > img {
+  width: 100px;
+  height: 100px;
+}
+.horoscope-info {
+  text-align: center;
+  padding: 2.125rem 1rem;
+}
+
+.horoscope-info > p {
+  font-size: 1.35rem;
+  font-weight: 400;
+  margin: 0;
+  padding-top: 0.25rem;
+}
